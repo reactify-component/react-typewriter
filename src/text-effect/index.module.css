@@ -1,0 +1,26 @@
+.blink {
+  animation: blink 1.2s linear infinite;
+  font-family: monospace;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  40.1% {
+    opacity: 1;
+  }
+  99.9% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  @apply inline-flex items-center justify-center select-none opacity-60;
+}

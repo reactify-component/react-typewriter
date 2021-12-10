@@ -4,6 +4,8 @@
     "declaration": true,
     "outDir": "../esm",
     "baseUrl": ".",
-    "jsx": "react"
+    "jsx": "react",
+    "noEmit": true,
+    "noImplicitAny": true
   }
 }

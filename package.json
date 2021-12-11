@@ -8,6 +8,11 @@
   "module": "build/index.esm.js",
   "types": "build/index.d.ts",
   "unpkg": "build/index.umd.min.js",
+  "bump": {
+    "after": [
+      "npm publish --access=public"
+    ]
+  },
   "files": [
     "build",
     "readme.md",

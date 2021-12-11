@@ -17,7 +17,7 @@ export const Section: React.FC<{
     <div className="">
       <h2>{props.description}</h2>
       <div className="mockup-window bg-base-300">
-        <div className="flex justify-center px-4 py-16 bg-base-200">
+        <div className="flex justify-center px-4 py-16 bg-base-200 dark:text-white">
           {React.createElement(TypeWriter, {
             ...propsFromJSX,
             textArray,

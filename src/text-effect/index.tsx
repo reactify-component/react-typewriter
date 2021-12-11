@@ -147,7 +147,7 @@ export const TypeWriter: React.FC<
       {currentText}
 
       <span className={`${styles['blink']} ${styles['cursor']}`}>
-        {suffix ?? <div className={styles['vertical-bar']}></div>}
+        {suffix ?? '|'}
       </span>
     </>,
   )

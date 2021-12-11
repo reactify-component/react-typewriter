@@ -1,6 +1,6 @@
 {
   "name": "@innei/react-typewriter",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "A simple component impl typewriter effect.",
   "author": "Innei",
   "license": "MIT",

@@ -1,6 +1,5 @@
 {
   "name": "react-typewriter",
-  "private": true,
   "version": "0.0.1",
   "description": "A simple component impl typewriter effect.",
   "author": "Innei",
@@ -14,9 +13,6 @@
     "readme.md",
     "tsconfig.json"
   ],
-  "engines": {
-    "pnpm": ">=6"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -37,7 +33,7 @@
     "dev": "vite",
     "build:vite": "vite build",
     "preview": "vite preview --port 2323",
-    "deploy": "vite build && gh-pages -d dist",
+    "deploy": "vite build && gh-pages -d example/dist",
     "test": "jest --env=jsdom --colors --coverage test",
     "test:watch": "jest --env=jsdom --colors --coverage test --watch"
   },

@@ -3,12 +3,33 @@ import React, { memo, useCallback, useEffect } from 'react'
 import styles from './index.module.css'
 
 interface TypeWriterProps {
+  /**
+   * 文字列表
+   */
   textArray: string[]
+  /**
+   * 文字速度, 毫秒
+   */
   textSpeed?: number
+  /**
+   * 后缀
+   */
   suffix?: string | JSX.Element
+  /**
+   * 停顿时间
+   */
   pauseTime?: number
+  /**
+   * 重复
+   */
   repeat?: boolean
+  /**
+   * 暂停
+   */
   pause?: boolean
+  /**
+   * 外层标签
+   */
   tag?: keyof JSX.IntrinsicElements
 }
 export const TypeWriter: React.FC<

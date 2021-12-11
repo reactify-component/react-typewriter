@@ -4,7 +4,21 @@ Live Demo: <https://innei.github.io/react-typewriter/>
 
 ## How to use
 
+```bash
+npm i @innei/react-typewriter
+```
 
+```tsx
+<TypeWriter textArray={[
+  '剑指天下，秋收 [Offer]',
+  '半夜奋笔疾码，云相伴，”乐“相随。',
+  'git push --force # 🐶',
+  'debugPrint("Hello World!")',
+  'vivo mian() { }；',
+  '0.2 + 0.1 // 0.30000000000000004',
+  'ReferenceError: girlfriend is not defined',
+]} />
+```
 
 ## Interface
 
@@ -40,3 +54,7 @@ interface TypeWriterProps {
   tag?: keyof JSX.IntrinsicElements
 }
 ```
+
+## License
+
+MIT

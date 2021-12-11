@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
+    "target": "ES2018",
     "lib": [
-      "ESNext",
       "DOM",
       "DOM.Iterable"
     ],

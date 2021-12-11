@@ -1,5 +1,5 @@
 {
-  "name": "react-typewriter",
+  "name": "@innei/react-typewriter",
   "version": "0.0.1",
   "description": "A simple component impl typewriter effect.",
   "author": "Innei",

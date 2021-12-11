@@ -90,7 +90,7 @@ export const TypeWriter: React.FC<
       // @see: https://stackoverflow.com/questions/24531751/how-can-i-split-a-string-containing-emoji-into-an-array
       const currentTextArray = Array.from(currentText)
       const currentFullTextArray = Array.from(
-        textArray[currentTextIndex.current],
+        textArray[currentTextIndex.current] ?? '',
       )
       let newText = ''
 

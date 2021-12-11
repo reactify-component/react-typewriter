@@ -1,6 +1,6 @@
 {
   "name": "@innei/react-typewriter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple component impl typewriter effect.",
   "author": "Innei",
   "license": "MIT",
@@ -9,6 +9,9 @@
   "types": "build/index.d.ts",
   "unpkg": "build/index.umd.min.js",
   "bump": {
+    "before": [
+      "npm run package"
+    ],
     "after": [
       "npm publish --access=public"
     ]

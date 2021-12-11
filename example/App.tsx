@@ -1,5 +1,7 @@
+import { Background } from 'components/background'
+import { Section } from 'components/section'
 import React, { useEffect, useState } from 'react'
-import { TextEffect } from '~'
+import { TypeWriter } from '~/text-effect'
 
 const demoText = [
   '剑指天下，秋收 [Offer]',
@@ -24,7 +26,14 @@ export const App = () => {
     }
   }, [text])
   return (
-    <div className="max-w-[500px] m-auto">
+    <div className="max-w-[500px] m-auto py-[30px]">
+      <Background />
+      <h1 className="text-3xl font-medium text-center">
+        <TypeWriter
+          textArray={React.useMemo(() => ['React TypeWriter'], [])}
+          repeat={false}
+        />
+      </h1>
       <div className="form-control">
         <label className="label">
           <span className="label-text">打字列表</span>
@@ -38,38 +47,44 @@ export const App = () => {
           }}
         ></textarea>
       </div>
-      <div className="pb-[100px]"></div>
-      <div className="mockup-window bg-base-300">
-        <div className="flex justify-center px-4 py-16 bg-base-200">
-          <TextEffect textArray={textArray} />
-        </div>
-      </div>
-      <div className="pb-[30px]"></div>
+      <article className="prose prose-base prose-code:text-[16px] prose-h2:text-[16px] pb-[30px]">
+        <Section
+          description={'常规使用'}
+          code={`<TypeWriter textArray={textArray} />`}
+          textArray={textArray}
+        ></Section>
+        <Section
+          description={'暂停时长 3 秒'}
+          code={`<TypeWriter textArray={textArray} pauseTime={3000} />`}
+          textArray={textArray}
+        ></Section>
 
-      <div className="mockup-code">
-        <pre>
-          <code
-            dangerouslySetInnerHTML={{
-              __html: encodeHTML(`<TextEffect textArray={textArray} />`),
-            }}
-          ></code>
-        </pre>
-      </div>
+        <Section
+          description={'打字间隔 1 秒'}
+          code={`<TypeWriter textArray={textArray} textSpeed={1000} />`}
+          textArray={textArray}
+        ></Section>
+
+        <Section
+          description={'自定义标签'}
+          code={`<TypeWriter textArray={textArray} tag="code" />`}
+          textArray={textArray}
+        ></Section>
+
+        <Section
+          description={'不重复, 停留在最后一句话'}
+          code={`<TypeWriter textArray={textArray} repeat={false} />`}
+          textArray={textArray}
+        ></Section>
+        <Section
+          description={'自定义光标'}
+          code={`<TypeWriter textArray={textArray} suffix="_" />`}
+          textArray={textArray}
+        ></Section>
+      </article>
+      <footer className="text-gray-800 text-opacity-50 text-sm text-center">
+        2021 &copy; React TypeWriter. Innei
+      </footer>
     </div>
   )
-}
-
-const encodeHTML = function (str: string) {
-  if (typeof str == 'string') {
-    // @ts-ignore
-    return str.replace(/<|&|>/g, function (matches) {
-      return {
-        '<': '&lt;',
-        '>': '&gt;',
-        '&': '&amp;',
-      }[matches]
-    })
-  }
-
-  return ''
 }

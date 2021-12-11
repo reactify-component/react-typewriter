@@ -22,5 +22,9 @@
 }
 
 .cursor {
-  @apply inline-flex items-center justify-center select-none opacity-60;
+  @apply inline-flex items-center justify-center select-none opacity-60 relative; 
+}
+
+.vertical-bar {
+  @apply h-full w-[3px] rounded-full bg-black inline-block; 
 }

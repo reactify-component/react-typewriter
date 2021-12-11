@@ -2,25 +2,25 @@ import React, { memo, useCallback, useEffect } from 'react'
 // @ts-ignore
 import styles from './index.module.css'
 
-interface TextEffectProps {
+interface TypeWriterProps {
   textArray: string[]
   textSpeed?: number
-  suffix?: string
+  suffix?: string | JSX.Element
   pauseTime?: number
   repeat?: boolean
   pause?: boolean
   tag?: keyof JSX.IntrinsicElements
 }
-export const TextEffect: React.FC<
-  TextEffectProps & JSX.IntrinsicElements['span']
+export const TypeWriter: React.FC<
+  TypeWriterProps & JSX.IntrinsicElements['span']
 > = memo((props) => {
   const {
     pauseTime = 1000,
-    suffix = '|',
+    suffix,
     textArray: _textArray,
     textSpeed = 100,
     repeat = true,
-    tag = 'h1',
+    tag = 'span',
     pause = false,
     ...rest
   } = props
@@ -80,7 +80,7 @@ export const TextEffect: React.FC<
             (currentTextIndex.current + 1) % textArray.length
         } else {
           const nextIndex = currentTextIndex.current + 1
-          if (nextIndex === textArray.length) {
+          if (nextIndex < textArray.length) {
             currentTextIndex.current = nextIndex
           } else return currentFullTextArray.join('')
         }
@@ -124,7 +124,10 @@ export const TextEffect: React.FC<
     },
     <>
       {currentText}
-      <span className={`${styles['blink']} ${styles['cursor']}`}>{suffix}</span>
+
+      <span className={`${styles['blink']} ${styles['cursor']}`}>
+        {suffix ?? <div className={styles['vertical-bar']}></div>}
+      </span>
     </>,
   )
 })

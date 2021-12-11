@@ -1,1 +1,1 @@
-export { TextEffect } from './text-effect'
+export { TypeWriter } from './text-effect'

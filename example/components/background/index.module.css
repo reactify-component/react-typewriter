@@ -1,0 +1,18 @@
+.root {
+  @apply bg-no-repeat fixed top-0 left-0 w-full h-full z-[-1];
+
+  filter: blur(64px);
+}
+
+.circle {
+  @apply rounded-full absolute opacity-50 dark:brightness-50;
+
+  transition: transform 5s ease-in-out;
+  will-change: transform;
+  height: var(--size);
+  width: var(--size);
+  height: 20vmax;
+  width: 20vmax;
+  transform: translate(var(--x), var(--y));
+  background-color: var(--color);
+}

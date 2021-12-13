@@ -7,7 +7,7 @@ specifiers:
   '@innei-util/prettier': latest
   '@rollup/plugin-babel': 5.3.0
   '@rollup/plugin-commonjs': 21.0.1
-  '@rollup/plugin-node-resolve': 13.0.6
+  '@rollup/plugin-node-resolve': 13.1.1
   '@rollup/plugin-typescript': 8.3.0
   '@saber2pr/jsx-ast-parser': 0.1.2
   '@tailwindcss/typography': 0.5.0
@@ -48,7 +48,7 @@ devDependencies:
   '@innei-util/prettier': 0.1.4_prettier@2.5.1+typescript@4.5.3
   '@rollup/plugin-babel': 5.3.0_rollup@2.61.0
   '@rollup/plugin-commonjs': 21.0.1_rollup@2.61.0
-  '@rollup/plugin-node-resolve': 13.0.6_rollup@2.61.0
+  '@rollup/plugin-node-resolve': 13.1.1_rollup@2.61.0
   '@rollup/plugin-typescript': 8.3.0_c08b292199e04dddd058244ce3f93c88
   '@saber2pr/jsx-ast-parser': 0.1.2
   '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.2
@@ -851,8 +851,8 @@ packages:
       rollup: 2.61.0
     dev: true
 
-  /@rollup/plugin-node-resolve/13.0.6_rollup@2.61.0:
-    resolution: {integrity: sha512-sFsPDMPd4gMqnh2gS0uIxELnoRUp5kBl5knxD2EO0778G1oOJv4G1vyT2cpWz75OU2jDVcXhjVUuTAczGyFNKA==}
+  /@rollup/plugin-node-resolve/13.1.1_rollup@2.61.0:
+    resolution: {integrity: sha512-6QKtRevXLrmEig9UiMYt2fSvee9TyltGRfw+qSs6xjUnxwjOzTOqy+/Lpxsgjb8mJn1EQNbCDAvt89O4uzL5kw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0

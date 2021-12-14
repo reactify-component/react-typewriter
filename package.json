@@ -50,7 +50,7 @@
     "react": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/preset-react": "7.16.0",
+    "@babel/preset-react": "7.16.5",
     "@innei-util/eslint-config-react-ts": "0.1.2",
     "@innei-util/eslint-config-ts": "latest",
     "@innei-util/prettier": "latest",

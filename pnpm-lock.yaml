@@ -17,7 +17,7 @@ specifiers:
   '@types/react': 17.0.38
   '@types/react-dom': 17.0.11
   '@zerollup/ts-transform-paths': 1.7.18
-  daisyui: 1.19.0
+  daisyui: 1.20.0
   dts-bundle-generator: 6.2.0
   esbuild: 0.14.8
   gh-pages: 3.2.3
@@ -58,7 +58,7 @@ devDependencies:
   '@types/react': 17.0.38
   '@types/react-dom': 17.0.11
   '@zerollup/ts-transform-paths': 1.7.18_typescript@4.5.4
-  daisyui: 1.19.0
+  daisyui: 1.20.0
   dts-bundle-generator: 6.2.0
   esbuild: 0.14.8
   gh-pages: 3.2.3
@@ -1883,8 +1883,8 @@ packages:
     resolution: {integrity: sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==}
     dev: true
 
-  /daisyui/1.19.0:
-    resolution: {integrity: sha512-SaKe2acN734KVtrrCvxXFnrl1BOQzXqQybHbUZnXz3kK5h903mK/kKHWx+423Y03+DikWJbuGYWgcYHTQk3dwQ==}
+  /daisyui/1.20.0:
+    resolution: {integrity: sha512-vHXw/M9KRIkdPE6r2KSqfGNg/evoCXyZFsGZQDi4PNDOlP7wL+3YmPev5M+CvmviB2kXhorekQXpulbTTqLAZQ==}
     dev: true
 
   /data-urls/2.0.0:

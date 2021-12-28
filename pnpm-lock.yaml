@@ -38,7 +38,7 @@ specifiers:
   tslib: 2.3.1
   ttypescript: 1.5.13
   typescript: 4.5.4
-  vite: 2.7.8
+  vite: 2.7.9
   vite-tsconfig-paths: 3.3.17
 
 devDependencies:
@@ -79,8 +79,8 @@ devDependencies:
   tslib: 2.3.1
   ttypescript: 1.5.13_typescript@4.5.4
   typescript: 4.5.4
-  vite: 2.7.8
-  vite-tsconfig-paths: 3.3.17_vite@2.7.8
+  vite: 2.7.9
+  vite-tsconfig-paths: 3.3.17_vite@2.7.9
 
 packages:
 
@@ -5824,7 +5824,7 @@ packages:
       source-map: 0.7.3
     dev: true
 
-  /vite-tsconfig-paths/3.3.17_vite@2.7.8:
+  /vite-tsconfig-paths/3.3.17_vite@2.7.9:
     resolution: {integrity: sha512-wx+rfC53moVLxMBj2EApJZgY6HtvWUFVZ4dBxNGYBxSSqU6UaHdKlcOxrfGDxyTGtYEr9beWCryHn18C4EtZkg==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -5833,13 +5833,13 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.1
       tsconfig-paths: 3.9.0
-      vite: 2.7.8
+      vite: 2.7.9
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.7.8:
-    resolution: {integrity: sha512-NOgvRtXUq4/7srE2cTQ2IU1oERdGq2njVOlZtgRrjMO+PPJpncd61/AUzxzZklQ1zBkiWXEVrw3Csq0Sbgr0rQ==}
+  /vite/2.7.9:
+    resolution: {integrity: sha512-CyopIJIRrc26Wnbkch5BCHFhQodzeV4jjSegLAEw1RImvXSuoOo2SfpEW9zRVi188WmjJwCqCaoG25C0r4nekw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:

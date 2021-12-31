@@ -7,7 +7,7 @@ specifiers:
   '@innei-util/prettier': latest
   '@rollup/plugin-babel': 5.3.0
   '@rollup/plugin-commonjs': 21.0.1
-  '@rollup/plugin-node-resolve': 13.1.1
+  '@rollup/plugin-node-resolve': 13.1.2
   '@rollup/plugin-typescript': 8.3.0
   '@saber2pr/jsx-ast-parser': 0.1.2
   '@tailwindcss/typography': 0.5.0
@@ -48,7 +48,7 @@ devDependencies:
   '@innei-util/prettier': 0.1.4_prettier@2.5.1+typescript@4.5.4
   '@rollup/plugin-babel': 5.3.0_rollup@2.62.0
   '@rollup/plugin-commonjs': 21.0.1_rollup@2.62.0
-  '@rollup/plugin-node-resolve': 13.1.1_rollup@2.62.0
+  '@rollup/plugin-node-resolve': 13.1.2_rollup@2.62.0
   '@rollup/plugin-typescript': 8.3.0_7c5ff569c0887b4f0035eb7cb6988163
   '@saber2pr/jsx-ast-parser': 0.1.2
   '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.8
@@ -239,11 +239,6 @@ packages:
       '@babel/types': 7.16.7
     dev: true
 
-  /@babel/helper-validator-identifier/7.15.7:
-    resolution: {integrity: sha512-K4JvCtQqad9OY2+yTU8w+E82ywk/fe+ELNlt1G8z3bVGlZfn/hOcQQsUhGhW/N+tb3fxK800wLtKOE/aM0m72w==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/helper-validator-identifier/7.16.7:
     resolution: {integrity: sha512-hsEnFemeiW4D08A5gUAZxLBTXpZ39P+a+DGDsHw1yxqyQ/jzFEnxf5uTEGp+3bzAbNOxU1paTgYS4ECU/IgfDw==}
     engines: {node: '>=6.9.0'}
@@ -268,7 +263,7 @@ packages:
     resolution: {integrity: sha512-t8MH41kUQylBtu2+4IQA3atqevA2lRgqA2wyVB/YiWmsDSuylZZuXOUy9ric30hfzauEFfdsuk/eXTRrGrfd0g==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/helper-validator-identifier': 7.15.7
+      '@babel/helper-validator-identifier': 7.16.7
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
@@ -486,7 +481,7 @@ packages:
   /@babel/types/7.14.2:
     resolution: {integrity: sha512-SdjAG/3DikRHpUOjxZgnkbR11xUlyDMUFJdvnIgZEE16mqmY0BINMmc4//JMJglEmn6i7sq6p+mGrFWyZ98EEw==}
     dependencies:
-      '@babel/helper-validator-identifier': 7.15.7
+      '@babel/helper-validator-identifier': 7.16.7
       to-fast-properties: 2.0.0
     dev: true
 
@@ -837,8 +832,8 @@ packages:
       rollup: 2.62.0
     dev: true
 
-  /@rollup/plugin-node-resolve/13.1.1_rollup@2.62.0:
-    resolution: {integrity: sha512-6QKtRevXLrmEig9UiMYt2fSvee9TyltGRfw+qSs6xjUnxwjOzTOqy+/Lpxsgjb8mJn1EQNbCDAvt89O4uzL5kw==}
+  /@rollup/plugin-node-resolve/13.1.2_rollup@2.62.0:
+    resolution: {integrity: sha512-xyqbuf1vyOPC60jEKhx3DBHunymnCJswzjNTKfX4Jz7zCPar1UqbRZCNY1u5QaXh97beaFTWdoUUWiV4qX8o/g==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0

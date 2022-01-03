@@ -33,7 +33,7 @@ specifiers:
   rollup-plugin-peer-deps-external: 2.2.4
   rollup-plugin-postcss: 4.0.2
   rollup-plugin-terser: 7.0.2
-  tailwindcss: 3.0.8
+  tailwindcss: 3.0.9
   ts-jest: 27.1.2
   tslib: 2.3.1
   ttypescript: 1.5.13
@@ -51,7 +51,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.1.2_rollup@2.62.0
   '@rollup/plugin-typescript': 8.3.0_7c5ff569c0887b4f0035eb7cb6988163
   '@saber2pr/jsx-ast-parser': 0.1.2
-  '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.8
+  '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.9
   '@types/jest': 27.4.0
   '@types/lodash-es': 4.17.5
   '@types/node': 16.11.18
@@ -74,7 +74,7 @@ devDependencies:
   rollup-plugin-peer-deps-external: 2.2.4_rollup@2.62.0
   rollup-plugin-postcss: 4.0.2_postcss@8.4.5
   rollup-plugin-terser: 7.0.2_rollup@2.62.0
-  tailwindcss: 3.0.8_postcss@8.4.5
+  tailwindcss: 3.0.9_postcss@8.4.5
   ts-jest: 27.1.2_477db848dbb854cf21c4475e8e877fdd
   tslib: 2.3.1
   ttypescript: 1.5.13_typescript@4.5.4
@@ -892,7 +892,7 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@tailwindcss/typography/0.5.0_tailwindcss@3.0.8:
+  /@tailwindcss/typography/0.5.0_tailwindcss@3.0.9:
     resolution: {integrity: sha512-1p/3C6C+JJziS/ghtG8ACYalbA2SyLJY27Pm33cVTlAoY6VQ7zfm2H64cPxUMBkVIlWXTtWHhZcZJPobMRmQAA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || insiders'
@@ -901,7 +901,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
-      tailwindcss: 3.0.8_postcss@8.4.5
+      tailwindcss: 3.0.9_postcss@8.4.5
     dev: true
 
   /@tootallnate/once/1.1.2:
@@ -5503,8 +5503,8 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /tailwindcss/3.0.8_postcss@8.4.5:
-    resolution: {integrity: sha512-Yww1eRYO1AxITJmW/KduZPxNvYdHuedeKwPju9Oakp7MdiixRi5xkpLhirsc81QCxHL0eoce6qKmxXwYGt4Cjw==}
+  /tailwindcss/3.0.9_postcss@8.4.5:
+    resolution: {integrity: sha512-X8TVifxDWfiNXInOeBofTteXAtZ5f0HnLs/uV4jDQNShc33Jb7qjYbk4VwI365rWAzcqYTks+9kesf3xH7Y35A==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -5532,7 +5532,6 @@ packages:
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
       resolve: 1.20.0
-      tmp: 0.2.1
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -5578,13 +5577,6 @@ packages:
 
   /timsort/0.3.0:
     resolution: {integrity: sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=}
-    dev: true
-
-  /tmp/0.2.1:
-    resolution: {integrity: sha512-76SUhtfqR2Ijn+xllcI5P1oyannHNHByD80W1q447gU3mp9G9PSpGdWmjUOHRDPiHYacIk66W7ubDTuPF3BEtQ==}
-    engines: {node: '>=8.17.0'}
-    dependencies:
-      rimraf: 3.0.2
     dev: true
 
   /tmpl/1.0.4:

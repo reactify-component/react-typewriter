@@ -33,7 +33,7 @@ specifiers:
   rollup-plugin-peer-deps-external: 2.2.4
   rollup-plugin-postcss: 4.0.2
   rollup-plugin-terser: 7.0.2
-  tailwindcss: 3.0.10
+  tailwindcss: 3.0.11
   ts-jest: 27.1.2
   tslib: 2.3.1
   ttypescript: 1.5.13
@@ -51,7 +51,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.1.3_rollup@2.63.0
   '@rollup/plugin-typescript': 8.3.0_cb044fd0a247ab74c5d8bfaf0e00abae
   '@saber2pr/jsx-ast-parser': 0.1.2
-  '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.10
+  '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.11
   '@types/jest': 27.4.0
   '@types/lodash-es': 4.17.5
   '@types/node': 16.11.19
@@ -74,7 +74,7 @@ devDependencies:
   rollup-plugin-peer-deps-external: 2.2.4_rollup@2.63.0
   rollup-plugin-postcss: 4.0.2_postcss@8.4.5
   rollup-plugin-terser: 7.0.2_rollup@2.63.0
-  tailwindcss: 3.0.10_postcss@8.4.5
+  tailwindcss: 3.0.11_postcss@8.4.5
   ts-jest: 27.1.2_370c26f45a058e6a5609278152e0b5ee
   tslib: 2.3.1
   ttypescript: 1.5.13_typescript@4.5.4
@@ -892,7 +892,7 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@tailwindcss/typography/0.5.0_tailwindcss@3.0.10:
+  /@tailwindcss/typography/0.5.0_tailwindcss@3.0.11:
     resolution: {integrity: sha512-1p/3C6C+JJziS/ghtG8ACYalbA2SyLJY27Pm33cVTlAoY6VQ7zfm2H64cPxUMBkVIlWXTtWHhZcZJPobMRmQAA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || insiders'
@@ -901,7 +901,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
-      tailwindcss: 3.0.10_postcss@8.4.5
+      tailwindcss: 3.0.11_postcss@8.4.5
     dev: true
 
   /@tootallnate/once/1.1.2:
@@ -4573,9 +4573,11 @@ packages:
       postcss: 8.4.5
     dev: true
 
-  /postcss-js/3.0.3:
-    resolution: {integrity: sha512-gWnoWQXKFw65Hk/mi2+WTQTHdPD5UJdDXZmX073EY/B3BWnYjO4F4t0VneTCnCGQ5E5GsCdMkzPaTXwl3r5dJw==}
-    engines: {node: '>=10.0'}
+  /postcss-js/4.0.0_postcss@8.4.5:
+    resolution: {integrity: sha512-77QESFBwgX4irogGVPgQ5s07vLvFqWr228qZY+w6lW599cRlK/HmnlivnnVUxkjHnCu4J16PDMHcH+e+2HbvTQ==}
+    engines: {node: ^12 || ^14 || >= 16}
+    peerDependencies:
+      postcss: ^8.3.3
     dependencies:
       camelcase-css: 2.0.1
       postcss: 8.4.5
@@ -5507,8 +5509,8 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /tailwindcss/3.0.10_postcss@8.4.5:
-    resolution: {integrity: sha512-dSKGNqI6hyzY8CPX0GsYTZ9yTxGesHrNFPIANTBe8bQWNHGTsAd7PoZQ+HTaIQb/we3zaZfa4F487WCCvhBGbw==}
+  /tailwindcss/3.0.11_postcss@8.4.5:
+    resolution: {integrity: sha512-JyMsQ2kPqpOvG8ow535XpauXj3wz3nQqcy2tVlXj4FQ0eNlsdzvlAqpRA3q5rPLboWirNG6r2DqKczwjW2uc8Q==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -5529,7 +5531,7 @@ packages:
       normalize-path: 3.0.0
       object-hash: 2.2.0
       postcss: 8.4.5
-      postcss-js: 3.0.3
+      postcss-js: 4.0.0_postcss@8.4.5
       postcss-load-config: 3.1.0
       postcss-nested: 5.0.6_postcss@8.4.5
       postcss-selector-parser: 6.0.7

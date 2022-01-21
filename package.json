@@ -68,7 +68,7 @@
     "@zerollup/ts-transform-paths": "1.7.18",
     "daisyui": "1.24.3",
     "dts-bundle-generator": "6.4.0",
-    "esbuild": "0.14.11",
+    "esbuild": "0.14.12",
     "gh-pages": "3.2.3",
     "husky": "7.0.4",
     "jest": "27.4.7",

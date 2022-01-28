@@ -33,7 +33,7 @@ specifiers:
   rollup-plugin-peer-deps-external: 2.2.4
   rollup-plugin-postcss: 4.0.2
   rollup-plugin-terser: 7.0.2
-  tailwindcss: 3.0.17
+  tailwindcss: 3.0.18
   ts-jest: 27.1.3
   tslib: 2.3.1
   ttypescript: 1.5.13
@@ -51,7 +51,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.1.3_rollup@2.66.1
   '@rollup/plugin-typescript': 8.3.0_a652e97aea7ea04fb4c9edbfa5b475e6
   '@saber2pr/jsx-ast-parser': 0.1.2
-  '@tailwindcss/typography': 0.5.1_tailwindcss@3.0.17
+  '@tailwindcss/typography': 0.5.1_tailwindcss@3.0.18
   '@types/jest': 27.4.0
   '@types/lodash-es': 4.17.5
   '@types/node': 16.11.21
@@ -74,7 +74,7 @@ devDependencies:
   rollup-plugin-peer-deps-external: 2.2.4_rollup@2.66.1
   rollup-plugin-postcss: 4.0.2_postcss@8.4.5
   rollup-plugin-terser: 7.0.2_rollup@2.66.1
-  tailwindcss: 3.0.17_postcss@8.4.5
+  tailwindcss: 3.0.18_postcss@8.4.5
   ts-jest: 27.1.3_44cbe48923fdd361d5f2b0b99651a69b
   tslib: 2.3.1
   ttypescript: 1.5.13_typescript@4.5.5
@@ -892,7 +892,7 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@tailwindcss/typography/0.5.1_tailwindcss@3.0.17:
+  /@tailwindcss/typography/0.5.1_tailwindcss@3.0.18:
     resolution: {integrity: sha512-AmSzZSgLhHKlILKduU+PKBTHL6c+al82syZlRid1xgmlWwXagLigO+O++B4C0scpMfzW//f/3YCRcwwEHWoU3w==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || insiders'
@@ -900,7 +900,7 @@ packages:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
-      tailwindcss: 3.0.17_postcss@8.4.5
+      tailwindcss: 3.0.18_postcss@8.4.5
     dev: true
 
   /@tootallnate/once/1.1.2:
@@ -4509,7 +4509,7 @@ packages:
       postcss: ^8.2.2
     dependencies:
       postcss: 8.4.5
-      postcss-selector-parser: 6.0.8
+      postcss-selector-parser: 6.0.9
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -4617,7 +4617,7 @@ packages:
       caniuse-api: 3.0.0
       cssnano-utils: 2.0.1_postcss@8.4.5
       postcss: 8.4.5
-      postcss-selector-parser: 6.0.8
+      postcss-selector-parser: 6.0.9
     dev: true
 
   /postcss-minify-font-values/5.0.1_postcss@8.4.5:
@@ -4663,7 +4663,7 @@ packages:
     dependencies:
       alphanum-sort: 1.0.2
       postcss: 8.4.5
-      postcss-selector-parser: 6.0.8
+      postcss-selector-parser: 6.0.9
     dev: true
 
   /postcss-modules-extract-imports/3.0.0_postcss@8.4.5:
@@ -4730,7 +4730,7 @@ packages:
       postcss: ^8.2.14
     dependencies:
       postcss: 8.4.5
-      postcss-selector-parser: 6.0.8
+      postcss-selector-parser: 6.0.9
     dev: true
 
   /postcss-normalize-charset/5.0.1_postcss@8.4.5:
@@ -4869,6 +4869,14 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
+  /postcss-selector-parser/6.0.9:
+    resolution: {integrity: sha512-UO3SgnZOVTwu4kyLR22UQ1xZh086RyNZppb7lLAKBFK8a32ttG5i87Y/P3+2bRSjZNyJ1B7hfFNo273tKe9YxQ==}
+    engines: {node: '>=4'}
+    dependencies:
+      cssesc: 3.0.0
+      util-deprecate: 1.0.2
+    dev: true
+
   /postcss-svgo/5.0.3_postcss@8.4.5:
     resolution: {integrity: sha512-41XZUA1wNDAZrQ3XgWREL/M2zSw8LJPvb5ZWivljBsUQAGoEKMYm6okHsTjJxKYI4M75RQEH4KYlEM52VwdXVA==}
     engines: {node: ^10 || ^12 || >=14.0}
@@ -4888,7 +4896,7 @@ packages:
     dependencies:
       alphanum-sort: 1.0.2
       postcss: 8.4.5
-      postcss-selector-parser: 6.0.8
+      postcss-selector-parser: 6.0.9
     dev: true
 
   /postcss-value-parser/4.2.0:
@@ -5451,7 +5459,7 @@ packages:
     dependencies:
       browserslist: 4.16.6
       postcss: 8.4.5
-      postcss-selector-parser: 6.0.8
+      postcss-selector-parser: 6.0.9
     dev: true
 
   /supports-color/5.5.0:
@@ -5522,8 +5530,8 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /tailwindcss/3.0.17_postcss@8.4.5:
-    resolution: {integrity: sha512-OiHUsmOKQQEg/ocXaLIjk/kOz8EK2jF6iPuc1bQ4NsmhYl7sk70UDsGV02AJvBAAiJhinPCkDR8egT9qY+ulCw==}
+  /tailwindcss/3.0.18_postcss@8.4.5:
+    resolution: {integrity: sha512-ihPTpEyA5ANgZbwKlgrbfnzOp9R5vDHFWmqxB1PT8NwOGCOFVVMl+Ps1cQQ369acaqqf1BEF77roCwK0lvNmTw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -5547,7 +5555,7 @@ packages:
       postcss-js: 4.0.0_postcss@8.4.5
       postcss-load-config: 3.1.0
       postcss-nested: 5.0.6_postcss@8.4.5
-      postcss-selector-parser: 6.0.8
+      postcss-selector-parser: 6.0.9
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
       resolve: 1.21.0

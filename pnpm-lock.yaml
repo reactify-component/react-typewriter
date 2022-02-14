@@ -10,7 +10,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 13.1.3
   '@rollup/plugin-typescript': 8.3.0
   '@saber2pr/jsx-ast-parser': 0.1.2
-  '@tailwindcss/typography': 0.5.1
+  '@tailwindcss/typography': 0.5.2
   '@types/jest': 27.4.0
   '@types/lodash-es': 4.17.6
   '@types/node': 16.11.24
@@ -51,7 +51,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.1.3_rollup@2.67.2
   '@rollup/plugin-typescript': 8.3.0_0013780227dc696d322520825eac6c82
   '@saber2pr/jsx-ast-parser': 0.1.2
-  '@tailwindcss/typography': 0.5.1_tailwindcss@3.0.22
+  '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.22
   '@types/jest': 27.4.0
   '@types/lodash-es': 4.17.6
   '@types/node': 16.11.24
@@ -965,8 +965,8 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@tailwindcss/typography/0.5.1_tailwindcss@3.0.22:
-    resolution: {integrity: sha512-AmSzZSgLhHKlILKduU+PKBTHL6c+al82syZlRid1xgmlWwXagLigO+O++B4C0scpMfzW//f/3YCRcwwEHWoU3w==}
+  /@tailwindcss/typography/0.5.2_tailwindcss@3.0.22:
+    resolution: {integrity: sha512-coq8DBABRPFcVhVIk6IbKyyHUt7YTEC/C992tatFB+yEx5WGBQrCgsSFjxHUr8AWXphWckadVJbominEduYBqw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || insiders'
     dependencies:

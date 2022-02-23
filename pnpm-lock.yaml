@@ -6,7 +6,7 @@ specifiers:
   '@innei-util/eslint-config-ts': latest
   '@innei-util/prettier': latest
   '@rollup/plugin-babel': 5.3.1
-  '@rollup/plugin-commonjs': 21.0.1
+  '@rollup/plugin-commonjs': 21.0.2
   '@rollup/plugin-node-resolve': 13.1.3
   '@rollup/plugin-typescript': 8.3.0
   '@saber2pr/jsx-ast-parser': 0.1.2
@@ -47,7 +47,7 @@ devDependencies:
   '@innei-util/eslint-config-ts': 0.4.0_typescript@4.5.5
   '@innei-util/prettier': 0.2.2_typescript@4.5.5
   '@rollup/plugin-babel': 5.3.1_rollup@2.68.0
-  '@rollup/plugin-commonjs': 21.0.1_rollup@2.68.0
+  '@rollup/plugin-commonjs': 21.0.2_rollup@2.68.0
   '@rollup/plugin-node-resolve': 13.1.3_rollup@2.68.0
   '@rollup/plugin-typescript': 8.3.0_451a757fae81bce878fd62e05531fa1f
   '@saber2pr/jsx-ast-parser': 0.1.2
@@ -883,8 +883,8 @@ packages:
       rollup: 2.68.0
     dev: true
 
-  /@rollup/plugin-commonjs/21.0.1_rollup@2.68.0:
-    resolution: {integrity: sha512-EA+g22lbNJ8p5kuZJUYyhhDK7WgJckW5g4pNN7n4mAFUM96VuwUnNT3xr2Db2iCZPI1pJPbGyfT5mS9T1dHfMg==}
+  /@rollup/plugin-commonjs/21.0.2_rollup@2.68.0:
+    resolution: {integrity: sha512-d/OmjaLVO4j/aQX69bwpWPpbvI3TJkQuxoAk7BH8ew1PyoMBLTOuvJTjzG8oEoW7drIIqB0KCJtfFLu/2GClWg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       rollup: ^2.38.3
@@ -895,7 +895,7 @@ packages:
       glob: 7.1.7
       is-reference: 1.2.1
       magic-string: 0.25.7
-      resolve: 1.20.0
+      resolve: 1.22.0
       rollup: 2.68.0
     dev: true
 

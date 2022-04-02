@@ -75,7 +75,7 @@
     "lint-staged": "12.3.7",
     "lodash-es": "4.17.21",
     "postcss": "8.4.12",
-    "prettier": "2.6.1",
+    "prettier": "2.6.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "rollup": "2.70.1",

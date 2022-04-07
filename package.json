@@ -64,7 +64,7 @@
     "@types/lodash-es": "4.17.6",
     "@types/node": "16.11.26",
     "@types/react": "17.0.44",
-    "@types/react-dom": "17.0.14",
+    "@types/react-dom": "17.0.15",
     "@zerollup/ts-transform-paths": "1.7.18",
     "daisyui": "1.25.4",
     "dts-bundle-generator": "6.7.0",

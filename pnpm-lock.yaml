@@ -14,7 +14,7 @@ specifiers:
   '@types/jest': 27.4.1
   '@types/lodash-es': 4.17.6
   '@types/node': 16.11.26
-  '@types/react': 17.0.44
+  '@types/react': 18.0.0
   '@types/react-dom': 17.0.15
   '@zerollup/ts-transform-paths': 1.7.18
   daisyui: 1.25.4
@@ -55,7 +55,7 @@ devDependencies:
   '@types/jest': 27.4.1
   '@types/lodash-es': 4.17.6
   '@types/node': 16.11.26
-  '@types/react': 17.0.44
+  '@types/react': 18.0.0
   '@types/react-dom': 17.0.15
   '@zerollup/ts-transform-paths': 1.7.18_typescript@4.6.3
   daisyui: 1.25.4
@@ -1096,6 +1096,14 @@ packages:
 
   /@types/react/17.0.44:
     resolution: {integrity: sha512-Ye0nlw09GeMp2Suh8qoOv0odfgCoowfM/9MG6WeRD60Gq9wS90bdkdRtYbRkNhXOpG4H+YXGvj4wOWhAC0LJ1g==}
+    dependencies:
+      '@types/prop-types': 15.7.4
+      '@types/scheduler': 0.16.2
+      csstype: 3.0.10
+    dev: true
+
+  /@types/react/18.0.0:
+    resolution: {integrity: sha512-7+K7zEQYu7NzOwQGLR91KwWXXDzmTFODRVizJyIALf6RfLv2GDpqpknX64pvRVILXCpXi7O/pua8NGk44dLvJw==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2

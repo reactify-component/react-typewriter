@@ -14,7 +14,7 @@ specifiers:
   '@types/jest': 27.4.1
   '@types/lodash-es': 4.17.6
   '@types/node': 16.11.26
-  '@types/react': 18.0.2
+  '@types/react': 18.0.3
   '@types/react-dom': 18.0.0
   '@zerollup/ts-transform-paths': 1.7.18
   daisyui: 1.25.4
@@ -55,7 +55,7 @@ devDependencies:
   '@types/jest': 27.4.1
   '@types/lodash-es': 4.17.6
   '@types/node': 16.11.26
-  '@types/react': 18.0.2
+  '@types/react': 18.0.3
   '@types/react-dom': 18.0.0
   '@zerollup/ts-transform-paths': 1.7.18_typescript@4.6.3
   daisyui: 1.25.4
@@ -94,7 +94,7 @@ packages:
   /@babel/code-frame/7.12.13:
     resolution: {integrity: sha512-HV1Cm0Q3ZrpCR93tkWOYiuYIgLxZXZFVG2VgK+MBWjUqZTundupbfx2aXarXuw5Ko5aMcjtJgbSs4vUGBS5v6g==}
     dependencies:
-      '@babel/highlight': 7.16.0
+      '@babel/highlight': 7.17.9
     dev: true
 
   /@babel/code-frame/7.16.7:
@@ -244,15 +244,6 @@ packages:
       '@babel/types': 7.17.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@babel/highlight/7.16.0:
-    resolution: {integrity: sha512-t8MH41kUQylBtu2+4IQA3atqevA2lRgqA2wyVB/YiWmsDSuylZZuXOUy9ric30hfzauEFfdsuk/eXTRrGrfd0g==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-validator-identifier': 7.16.7
-      chalk: 2.4.2
-      js-tokens: 4.0.0
     dev: true
 
   /@babel/highlight/7.17.9:
@@ -1053,11 +1044,11 @@ packages:
   /@types/react-dom/18.0.0:
     resolution: {integrity: sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==}
     dependencies:
-      '@types/react': 18.0.2
+      '@types/react': 18.0.3
     dev: true
 
-  /@types/react/18.0.2:
-    resolution: {integrity: sha512-2poV9ReTwwV5ZNxkKyk7t6Vp/odeTfYI3vRjtDYWfUdEstx9mp26jzELfMBwV6gXg1irhHUnmZJH/dJW7xafcA==}
+  /@types/react/18.0.3:
+    resolution: {integrity: sha512-P8QUaMW4k+kH9aKNPl9b3XWcKMSSALYprLL8xpAMJOLUn3Pl6B+6nKC4F7dsk9oJPwkiRx+qlwhG/Zc1LxFVuQ==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2

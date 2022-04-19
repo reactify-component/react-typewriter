@@ -18,7 +18,7 @@ specifiers:
   '@types/react-dom': 18.0.1
   '@zerollup/ts-transform-paths': 1.7.18
   daisyui: 1.25.4
-  dts-bundle-generator: 6.7.0
+  dts-bundle-generator: 6.8.0
   esbuild: 0.14.36
   gh-pages: 3.2.3
   husky: 7.0.4
@@ -59,7 +59,7 @@ devDependencies:
   '@types/react-dom': 18.0.1
   '@zerollup/ts-transform-paths': 1.7.18_typescript@4.6.3
   daisyui: 1.25.4
-  dts-bundle-generator: 6.7.0
+  dts-bundle-generator: 6.8.0
   esbuild: 0.14.36
   gh-pages: 3.2.3
   husky: 7.0.4
@@ -2117,8 +2117,8 @@ packages:
       domhandler: 4.3.0
     dev: true
 
-  /dts-bundle-generator/6.7.0:
-    resolution: {integrity: sha512-Rg46ug107sbdQ9cY3Z54lUHixzrt3cZULInEGq0aYxm36UoKIEoPh1jPt/9qoHqZ1cUFmSOIpVfEbds68lhdJw==}
+  /dts-bundle-generator/6.8.0:
+    resolution: {integrity: sha512-r92/SWfKd5G+rmYFapAMCgcPFfSIzqxcxH6J4EOmNidJhPSfnDey8dHlGttIIQUHQoy8+stH1KQcE23O8iGmNg==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:

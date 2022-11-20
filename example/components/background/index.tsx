@@ -1,7 +1,9 @@
 import { debounce } from 'lodash-es'
 import React, { useCallback, useEffect } from 'react'
+
 // @ts-ignore
 import styles from './index.module.css'
+
 // @ts-ignore
 export function getRandomArbitrary(min, max) {
   return Math.random() * (max - min) + min
@@ -80,13 +82,15 @@ export const Background: React.FC = () => {
           style={
             {
               '--color': c.color,
-              '--x': c.x + 'px',
-              '--y': c.y + 'px',
-              '--size': c.d / 2 + 'px',
+              '--x': `${c.x}px`,
+              '--y': `${c.y}px`,
+              '--size': `${c.d / 2}px`,
             } as any
           }
         ></div>
       ))}
+
+      <div className={styles['cover']} />
     </div>
   )
 }

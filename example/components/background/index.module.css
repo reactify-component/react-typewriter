@@ -1,7 +1,5 @@
 .root {
   @apply bg-no-repeat fixed top-0 left-0 w-full h-full z-[-1];
-
-  filter: blur(64px);
 }
 
 .circle {
@@ -15,4 +13,10 @@
   width: 20vmax;
   transform: translate(var(--x), var(--y));
   background-color: var(--color);
+}
+
+.cover {
+  @apply absolute inset-0 z-[1];
+
+  backdrop-filter: blur(64px)
 }
